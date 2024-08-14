@@ -1,0 +1,250 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    margin: none;
+    
+}
+
+/* Body and Main Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: white;
+    margin: none;
+
+}
+
+header {
+    position: relative;
+    background-image: url("m7.jpg");
+   
+}
+.head-nav {
+    width: 100%;
+    background-color: black;
+    text-align: center;
+    position: fixed;
+    z-index: 999;
+}
+
+.hero {
+    position: relative;
+    text-align: center;
+    /* background-color: black; */
+    height: 100vh;
+   
+}
+
+.hero-image {
+    width: 98%;
+    height: auto;
+   
+}
+
+.hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.hero-text h1 {
+    font-size: 3rem;
+}
+
+.hero-text p {
+    font-size: 1.5rem;
+}
+
+.cta {
+    display: inline-block;
+    padding: 5px 10px;
+    margin: 10px;
+    /* background-color: #333; */
+    background-color: black;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.cta:hover {
+    background-color: #555;
+}
+
+.social-media {
+    margin-top: 20px;
+
+}
+
+.social-icon {
+    display: inline-block;
+    margin: 0 10px;
+    text-decoration: none;
+    color: #fff;
+    color: orangered;
+    font-size: 1.5rem;
+}
+
+.social-icon:hover {
+    text-decoration: underline;
+}
+
+/* Sections */
+section {
+    padding: 20px;
+    background-color: #fff;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+.button {
+    display: inline-block;
+    padding: 2px 15px;
+    background-color: #333;
+    /* background-color: black; */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 5px;
+    transition: 0.4s;
+}
+.button:hover {
+    background-color: gray;
+
+}
+
+.button:active {
+    /* background-color: #555; */
+    background-color: orangered;
+}
+
+.gallery img {
+    width: 100%;
+    max-width: 300px;
+    margin: 10px;
+}
+
+
+/* about section styling */
+#about {
+    padding: 20px;
+    max-width: 100%;
+    max-height: auto;
+   
+}
+.about-sec {
+   color: none;
+   justify-content: center;
+   align-items: center;
+   align-items: center;
+ 
+}
+
+.about-sec img {
+    width: 100%;
+    max-width: 300px;
+    margin-right: 10px;
+    border-radius: 8px;
+   
+}
+
+.about-sec p {
+    background-color: white;
+    padding: 20px;
+    box-shadow:  0 2px 15px #333 ;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+.about-sec p:hover {
+    background-color: rgba(255, 255, 255, 0.921); 
+}
+
+.Download-btn {
+    border: none;
+    background-color: white;
+    padding: 8px;
+    border-radius: 5px;
+    text-decoration: overline;
+    color: blue;
+}
+.Download-btn:hover {
+    text-decoration: underline;
+}
+.Download-btn:active {
+    color: rgb(15, 15, 97);
+}
+
+
+/* end of about styling */
+
+
+#music {
+max-width: 100%;
+
+}
+.music-player, .discography, .media .gallery {
+    text-align: center;
+}
+
+.album-cover {
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 4px 4px  4px 4px#333;
+}
+
+
+#shows {
+    max-width: 100%;
+    max-height: 70vh;
+}
+#shows button {
+    padding: 5px 5px;
+}
+
+footer {
+    background-color: black;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    max-width: 100%;
+}
+
+.footer-nav a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.footer-nav a:hover {
+    text-decoration: underline;
+}
+
+form input[type="email"] {
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+}
+
+form button {
+    padding: 10px 20px;
+    /* background-color: #555; */
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+form button:hover {
+    background-color: #323;
+}
